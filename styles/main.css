@@ -1,0 +1,45 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  padding: 42px 0 0 30px;
+  margin-bottom: 124px;
+}
+.navbar {
+  background-color: #222222;
+  width: 319px;
+  height: 1080px;
+}
+.navbar-li {
+  display: flex;
+  margin-bottom: 54px;
+  padding-left: 60px;
+  align-items: center;
+}
+.navbar-li a {
+  margin-left: 15px;
+  color: #fff;
+}
+.burger {
+  flex-direction: column;
+  padding-top: 10px;
+}
+.burger span {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 3px 0 0 87px;
+  display: flex;
+  width: 17px;
+  height: 2px;
+}
