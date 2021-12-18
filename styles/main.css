@@ -37,6 +37,14 @@
   text-align: center;
   padding-top: 17px;
 }
+.topics {
+  display: flex;
+  justify-content: center;
+  margin-top: 87px;
+}
+.topics h3 {
+  margin-left: 52px;
+}
 .logo {
   display: flex;
   padding: 42px 0 0 30px;
