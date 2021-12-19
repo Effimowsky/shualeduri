@@ -41,6 +41,7 @@
   border-radius: 12px;
   width: 129px;
   height: 56px;
+  cursor: pointer;
   text-align: center;
   padding-top: 17px;
 }
@@ -76,6 +77,7 @@ aside {
 .burger {
   flex-direction: column;
   padding-top: 10px;
+  cursor: pointer;
 }
 .burger span {
   background-color: #fff;
@@ -135,13 +137,13 @@ aside {
 }
 .photo-text1 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   text-align: center;
   margin-bottom: 40px;
   flex-wrap: wrap;
 }
 .photo-text1 img {
-  width: 289px;
+  width: 250px;
   height: 210px;
 }
 .photo-text2 {
@@ -151,20 +153,20 @@ aside {
   flex-wrap: wrap;
 }
 .photo-text2 img {
-  width: 289px;
+  width: 250px;
   height: 210px;
 }
 .photo-text1 h2 {
-  width: 289px;
+  width: 250px;
   height: 52px;
-  font-size: 18px;
+  font-size: 15px;
   flex-wrap: wrap;
   font-family: "Avenir LT Std";
 }
 .photo-text2 h2 {
-  width: 298px;
+  width: 250px;
   height: 52px;
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Avenir LT Std";
 }
 .load-more-text {
@@ -180,7 +182,7 @@ aside {
 }
 .top-designers {
   margin-top: 183px;
-  margin-left: 110px;
+  margin-left: 65px;
 }
 .designers-text {
   display: flex;
@@ -221,6 +223,7 @@ aside {
   margin-top: 142px;
   flex-wrap: wrap;
   justify-content: space-around;
+  color: #222222;
 }
 .for-designers h2 {
   margin-bottom: 36px;
@@ -262,4 +265,32 @@ aside {
 
 .full-width {
   width: 100%;
+}
+.list-content {
+  margin-top: 119px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.list h2 {
+  margin-bottom: 62px;
+  font-size: 18px;
+}
+.list h4 {
+  margin-bottom: 62px;
+  color: #afafaf;
+  font-size: 16px;
+}
+.text-color h4 {
+  color: #222222;
+}
+.text-color1 h4 {
+  color: #ff2288;
+}
+.list2 {
+  padding-left: 80px;
+  text-align: center;
+}
+.list4 {
+  margin-right: 150px;
+  text-align: center;
 }
