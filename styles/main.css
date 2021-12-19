@@ -8,6 +8,7 @@
   list-style: none;
 }
 .container {
+  max-width: 1920px;
   width: 100%;
   margin: 0 auto;
 }
@@ -176,6 +177,9 @@
   padding: 16px 108px 19px 105px;
   margin-left: 500px;
 }
+.top-designers {
+  margin-top: 263px;
+}
 .designers-text {
   display: flex;
   flex-wrap: wrap;
@@ -212,6 +216,7 @@
 .footer-content {
   display: flex;
   margin-top: 142px;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .for-designers h2 {
@@ -241,4 +246,13 @@
 }
 .Directories h3 {
   margin-bottom: 15px;
+}
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 153px;
+  justify-content: space-between;
+}
+.smart-text span {
+  color: #222222;
 }
