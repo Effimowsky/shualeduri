@@ -45,6 +45,7 @@
   display: flex;
   padding: 42px 0 0 30px;
   margin-bottom: 124px;
+  font-family: "Avenir LT Std";
 }
 .navbar {
   background-color: #222222;
@@ -112,6 +113,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 87px;
+  font-family: "Avenir LT Std";
 }
 .topics h3 {
   margin-left: 52px;
@@ -154,11 +156,13 @@
   height: 52px;
   font-size: 18px;
   flex-wrap: wrap;
+  font-family: "Avenir LT Std";
 }
 .photo-text2 h2 {
   width: 298px;
   height: 52px;
   font-size: 18px;
+  font-family: "Avenir LT Std";
 }
 .lead-more-text {
   background-color: ##f2f2f2;
@@ -171,4 +175,37 @@
   color: #222222;
   padding: 16px 108px 19px 105px;
   margin-left: 500px;
+}
+.designers-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+.designers-text div {
+  margin-right: 25px;
+  text-align: center;
+  margin-top: 54px;
+}
+.designers-text img {
+  width: 132px;
+  height: 132px;
+}
+.country {
+  opacity: 0.6;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.designers-text h4 {
+  font-size: 14px;
+  margin-top: 29px;
+  border-radius: 12px;
+}
+.designers-text h2 {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.name {
+  background-color: #f2f2f2;
+  width: 132px;
+  height: 44px;
+  border-radius: 12px;
 }
