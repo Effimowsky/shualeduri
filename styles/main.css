@@ -43,59 +43,7 @@
   text-align: center;
   padding-top: 17px;
 }
-.topics {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-top: 87px;
-}
-.topics h3 {
-  margin-left: 52px;
-}
-.filter-text {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  margin-left: 100px;
-}
-.filter-text img {
-  margin-right: 15px;
-}
-.photo-text {
-  margin-top: 59px;
-}
-.photo-text1 {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-}
-.photo-text1 img {
-  width: 289px;
-  height: 210px;
-}
-.photo-text2 {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  flex-wrap: wrap;
-}
-.photo-text2 img {
-  width: 289px;
-  height: 210px;
-}
-.photo-text1 h2 {
-  width: 289px;
-  height: 52px;
-  font-size: 18px;
-  flex-wrap: wrap;
-}
-.photo-text2 h2 {
-  width: 298px;
-  height: 52px;
-  font-size: 18px;
-}
+
 .logo {
   display: flex;
   padding: 42px 0 0 30px;
@@ -161,4 +109,69 @@
   font-size: 14px;
   margin-top: 32px;
   margin-left: 60px;
+}
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 87px;
+}
+.topics h3 {
+  margin-left: 52px;
+}
+.filter-text {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 100px;
+}
+.filter-text img {
+  margin-right: 15px;
+}
+.photo-text {
+  margin-top: 59px;
+}
+.photo-text1 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.photo-text1 img {
+  width: 289px;
+  height: 210px;
+}
+.photo-text2 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.photo-text2 img {
+  width: 289px;
+  height: 210px;
+}
+.photo-text1 h2 {
+  width: 289px;
+  height: 52px;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+.photo-text2 h2 {
+  width: 298px;
+  height: 52px;
+  font-size: 18px;
+}
+.lead-more-text {
+  background-color: ##f2f2f2;
+  border-radius: 12px;
+  width: 289px;
+  height: 56px;
+}
+.lead-more-text h2 {
+  font-size: 16px;
+  color: #222222;
+  padding: 16px 108px 19px 105px;
+  margin-left: 500px;
 }
