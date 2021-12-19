@@ -8,7 +8,6 @@
   list-style: none;
 }
 .container {
-  /* max-width: 1920px; */
   width: 100%;
   margin: 0 auto;
 }
@@ -52,7 +51,7 @@
   font-family: "Avenir LT Std";
 }
 .navbar {
-  width: 319px;
+  width: 288px;
 }
 aside {
   background-color: #222222;
@@ -106,7 +105,6 @@ aside {
   margin-left: 20px;
   font-size: 16px;
 }
-
 .load-text {
   color: #fff;
   font-size: 14px;
@@ -137,10 +135,10 @@ aside {
 }
 .photo-text1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
-  flex-wrap: wrap;
   margin-bottom: 40px;
+  flex-wrap: wrap;
 }
 .photo-text1 img {
   width: 289px;
@@ -169,21 +167,24 @@ aside {
   font-size: 18px;
   font-family: "Avenir LT Std";
 }
-.lead-more-text {
+.load-more-text {
   display: flex;
   justify-content: center;
+  border-radius: 12px;
+  margin-top: 70px;
 }
 .lead-more-text h2 {
   font-size: 16px;
   color: #222222;
   padding: 16px 108px 19px 105px;
-  margin-left: 500px;
 }
 .top-designers {
   margin-top: 183px;
+  margin-left: 110px;
 }
 .designers-text {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .designers-text div {
