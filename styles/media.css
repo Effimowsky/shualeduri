@@ -1,0 +1,31 @@
+@media (max-width: 1024px) {
+  .header-icons2 {
+    flex-wrap: wrap;
+  }
+  .navbar-li {
+    display: none;
+  }
+  .follow-text {
+    display: none;
+  }
+  .icon-text {
+    display: none;
+  }
+  .load-text {
+    display: none;
+  }
+  .footer-content {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    width: 100%;
+  }
+  .topics {
+    width: 100%;
+  }
+  .footer-content {
+    display: none;
+  }
+}

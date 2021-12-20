@@ -28,7 +28,7 @@
 .header-icons2 {
   display: flex;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 .header-icons2 h3 {
   color: #ff2288;
@@ -56,6 +56,7 @@
 }
 aside {
   background-color: #222222;
+  height: 1080px;
 }
 .navbar-li {
   display: flex;
@@ -69,6 +70,8 @@ aside {
   width: 259px;
   height: 60px;
   margin-left: 30px;
+  transition-delay: 0.1s;
+  transition-duration: 0.7s;
 }
 .navbar-li a {
   margin-left: 15px;
@@ -116,7 +119,7 @@ aside {
 .topics {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 87px;
   font-family: "Avenir LT Std";
 }
@@ -188,6 +191,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  font-family: "Avenir LT Std";
 }
 .designers-text div {
   margin-right: 25px;
@@ -224,6 +228,7 @@ aside {
   flex-wrap: wrap;
   justify-content: space-around;
   color: #222222;
+  font-family: "Avenir LT Std";
 }
 .for-designers h2 {
   margin-bottom: 36px;
@@ -270,6 +275,7 @@ aside {
   margin-top: 119px;
   flex-wrap: wrap;
   justify-content: space-around;
+  font-family: "Avenir LT Std";
 }
 .list h2 {
   margin-bottom: 62px;
